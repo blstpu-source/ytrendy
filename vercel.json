@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/youtube.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/api/youtube", "destination": "/api/youtube.js" }
+  ]
+}
